@@ -12,7 +12,7 @@ function refill(){
     } else {
         let emplacement = f.emplacement.value;
         row = emplacement.charAt(0)
-        line = emplacement.charAt(3)
+        line = emplacement.charAt(2)
         f.produit.value = null
         f.quantite.value = null
         f.emplacement.value = null
