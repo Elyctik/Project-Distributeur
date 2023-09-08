@@ -89,6 +89,7 @@ function afficherChips(){
     paprika.textContent = "Chips au Paprika"
 
     let pikkles = document.getElementById("C3")
+let distributeur = new Array();
 
     let quantitePikkles = 10;
 
@@ -118,7 +119,17 @@ function refill(){
         f.emplacement.value = null
         distributeur[row][line] = [produit, quantite]
     }
+}
 
+function login(){
+    let password = document.getElementById("password").value
+    let username = document.getElementById("username").value
+    if (username === "root" && password === "toor1234="){
+        document.getElementById('refill').style.display = "block"
+        document.getElementById('login-popup').style.display = 'none'
+    } else {
+        alert("identifiants incorrect")
+    }
 }
 
 // SAM
