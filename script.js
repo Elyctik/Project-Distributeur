@@ -13,6 +13,9 @@ function refill(){
         let emplacement = f.emplacement.value;
         row = emplacement.charAt(0)
         line = emplacement.charAt(3)
+        f.produit.value = null
+        f.quantite.value = null
+        f.emplacement.value = null
         distributeur[row][line] = [produit, quantite]
     }
 
