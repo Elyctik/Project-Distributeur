@@ -1,0 +1,25 @@
+table {
+    border:1px solid black;
+}
+
+tr td {
+    border:1px solid black;
+}
+
+thead{
+    text-align: center;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+
+}
+
+#clavier{
+    border: 1px solid black;
+}
+
+ul li {
+    list-style: none;
+}
