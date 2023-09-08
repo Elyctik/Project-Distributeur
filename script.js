@@ -1,3 +1,16 @@
+
+
+function verify(texteUtilisateur){
+    let regex = new RegExp("^[abc]0[123]$","gmi");
+
+       if (regex.test(texteUtilisateur)){
+       return true;
+       }
+       else{
+       return false;
+       }
+}
+
 function verify(texteUtilisateur){
     let regex = new RegExp("^[abc]0[123]$","gmi");
 
@@ -19,6 +32,9 @@ function insererTexte() {
 
        if (regex.test(texteUtilisateur)){
        // Affichez le texte dans l'élément souhaité
+            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
+       if (regex.test(texteUtilisateur)){
+       // Affichez le texte dans l'élément souhaité
             affichageTexte.innerHTML = texteUtilisateur;
        }
        else{
@@ -26,19 +42,43 @@ function insererTexte() {
         // Affichez le texte dans l'élément souhaité
         affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
 
+       }
+       else{
+        affichageTexte.innerHTML = "Wrong input";
+    }
+}
         } else {
             affichageTexte.innerHTML = "Wrong input";
            }
         }
 
-}
+function afficherBoisson(){
 
+
+    let coca = document.getElementById("A1");
+
+    let quantiteCoca = 10;
+
+    coca.textContent = "Coca";
 function affichageClavier(id){
     if(document.getElementById("texteUtilisateur").value.length < 3 ){
     document.getElementById("texteUtilisateur").value += id;
     }
 }
 
+    let fanta = document.getElementById("A2");
+
+    let quantitefanta = 10;
+
+    fanta.textContent = "Fanta";
+
+    let sprite = document.getElementById("A3");
+
+    let quantitesprite = 10;
+
+    sprite.textContent = "Sprite";
+
+    alert("Il y a " + quantiteCoca + " Coca" + " Il y a " + quantitefanta + " Fanta" + " Il y a " + quantitesprite + " sprite")
 function viderLigne(){
 document.getElementById("texteUtilisateur").value = ""
 }
@@ -46,6 +86,56 @@ document.getElementById("texteUtilisateur").value = ""
 
 
 let distributeur = new Array();
+
+function afficherBonbon(){
+
+    let haribo = document.getElementById("B1");
+
+    let quantiteHaribo = 10;
+
+    haribo.textContent = "Haribo"
+
+    let tagada = document.getElementById("B2")
+
+    let quantitetagada = 10;
+
+    tagada.textContent = "tagada"
+
+    let nounours = document.getElementById("B3")
+
+    let quantiteNounours = 10;
+
+    nounours.textContent = "Nounours"
+
+    alert("il y a " + quantiteHaribo + " haribo " + " il y a " + quantitetagada + " tagadas" + " il y a " + quantiteNounours + " Nounours")
+
+}
+
+function afficherChips(){
+    let sel = document.getElementById("C1");
+
+    let quantiteSel = 10;
+
+    sel.textContent = "Chips au sel"
+
+    let paprika = document.getElementById("C2")
+
+    let quantitePaprika = 10;
+
+    paprika.textContent = "Chips au Paprika"
+
+    let pikkles = document.getElementById("C3")
+
+    let quantitePikkles = 10;
+
+    pikkles.textContent = "Chips Pikkles"
+
+    alert("il y a " + quantiteSel + " chips au sel " + " il y a " + quantitePaprika + " chips au paprika" + " il y a " + quantitePikkles + " chips au pikkles")
+
+}
+
+let distributeur = new Array();
+function refill(){
 
 function refill() {
 
@@ -150,15 +240,59 @@ function afficherChips() {
     alert("il y a " + quantiteSel + " chips au sel " + " il y a " + quantitePaprika + " chips au paprika" + " il y a " + quantitePikkles + " chips au pikkles")
 }
 
-// SAM
+
 
 function mouseOver(id) {
     document.getElementById(id).style.color = "red";
-    document.getElementById("test").innerHTML = "Bonjour, il y a X Coca-cola en A1 au prix de Y €"
+
+    //document.getElementById("test").innerHTML = "Bonjour, il y a  Coca-cola en A1 "+ "au prix de 2 €";
+    switch (id) {
+        case "A1":
+            document.getElementById("test2").innerHTML = "il y a " + a01[1] +" " + a01[0]+ " dans le distibuteur";
+            break;
+        case "A2" :
+            document.getElementById("test2").innerHTML = "il y a " + a02[1] +" " + a02[0]+ " dans le distibuteur";
+            break;
+        case "A3" :
+            document.getElementById("test2").innerHTML = "il y a " + a03[1] +" " + a03[0]+ " dans le distibuteur";
+            break;
+        case "B1" :
+            document.getElementById("test2").innerHTML = "il y a " + a04[1] +" " + a04[0]+ " dans le distibuteur";
+            break;
+        case "B2" :
+            document.getElementById("test2").innerHTML = "il y a " + a05[1] +" " + a05[0]+ " dans le distibuteur";
+            break;
+        case "B3" :
+            document.getElementById("test2").innerHTML = "il y a " + a06[1] +" " + a06[0]+ " dans le distibuteur";
+            break;
+        case "C1" :
+            document.getElementById("test2").innerHTML = "il y a " + a07[1] +" " + a07[0]+ " dans le distibuteur";
+            break;
+        case "C2" :
+            document.getElementById("test2").innerHTML = "il y a " + a08[1] +" " + a08[0]+ " dans le distibuteur";
+            break;
+        case "C3" :
+            document.getElementById("test2").innerHTML = "il y a " + a09[1] +" " + a09[0]+ " dans le distibuteur";
+            break;
+
+
+        default:
+            break;
+    }
 }
 
 function mouseOut(id) {
     document.getElementById(id).style.color = "black";
+    document.getElementById("test2").innerHTML = "";
 }
 
-// Fin de SAM
+let a01 = ["Coca", 10]
+let a02 = ["Fanta", 10]
+let a03 = ["Sprite", 10]
+let a04 = ["Haribo", 10]
+let a05 = ["Tagada", 10]
+let a06 = ["Nounours", 10]
+let a07 = ["Chips au sel", 10]
+let a08 = ["Chips au Paprika", 10]
+let a09 = ["Chips Pikkles", 10]
+
