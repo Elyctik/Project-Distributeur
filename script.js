@@ -28,36 +28,46 @@ function insererTexte() {
 
     if(texteUtilisateur == "A01"){
         alert("Félicitations vous avez choisi un coca !")
+        a01[1]=  a01[1] -1;
     }
     if(texteUtilisateur == "A02"){
         alert("Félicitations vous avez choisi un Fanta !")
+        a02[1]=  a02[1] -1;
     }
     if(texteUtilisateur == "A03"){
         alert("Félicitations vous avez choisi un Sprite !")
+        a03[1]=  a03[1] -1;
     }
 
     if(texteUtilisateur == "B01"){
         alert("Félicitations vous avez choisi un paquet d'haribo ! Haribo c'est beau la vie pour les grands et les petits")
+
+        a04[1]=  a04[1] -1;
     }
 
     if(texteUtilisateur == "B02"){
         alert("Félicitations vous avez choisi un paquet de fraise tagada tsoin tsoin !")
+        a05[1]=  a05[1] -1;
     }
 
     if(texteUtilisateur == "B03"){
         alert("Félicitations vous avez choisi un paquet de nounours en guimauve !")
+        a06[1]=  a06[1] -1;
     }
 
     if(texteUtilisateur == "C01"){
         alert("Félicitations vous avez choisi un paquet de chips au sel miam ! ")
+        a07[1]=  a07[1] -1;
     }
 
     if(texteUtilisateur == "C02"){
         alert("Félicitations vous avez choisi un paquet de chips au paprika ( avec un P majuscule ou pas  ? )")
+        a08[1]=  a08[1] -1;
     }
 
     if(texteUtilisateur == "C03"){
         alert("Félicitations vous avez choisi un paquet de chips pikkles ! Sérieux qui mange ça ?")
+        a09[1]=  a09[1] -1;
     }
 
 
