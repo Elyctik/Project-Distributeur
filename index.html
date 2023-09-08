@@ -33,16 +33,22 @@
     </table>
 
     <ul id="clavier">
-        <label for="texteUtilisateur">Inscrivez quelque chose :</label>
-        <input type="text" id="texteUtilisateur" maxlength="2">
-        <button onclick="insererTexte()">Inscrire</button>
-        <p id="affichageTexte"></p>
-        <li><button>A</button></li>
-        <li><button>B</button></li>
-        <li><button>C</button></li>
-        <li><button>1</button></li>
-        <li><button>2</button></li>
-        <li><button>3</button></li>
+        <label for="texteUtilisateur"></label>
+        <input type="text" id="texteUtilisateur" maxlength="3" disabled value="">
+        <button onclick="insererTexte()">Valider</button>
+        <button onclick="viderLigne()">Effacer</button>
+        <div id="affichageTexte"></div>
+
+        <div class = row ></div>
+        <button onclick="affichageClavier('A')">A</button>
+        <button onclick="affichageClavier('B')">B</button>
+        <button onclick="affichageClavier('C')">C</button>
+
+        <div class = row></div>
+        <button onclick="affichageClavier('1')">1</button>
+        <button onclick="affichageClavier('2')">2</button>
+        <button onclick="affichageClavier('3')">3</button>
+        <button onclick="affichageClavier('0')">0</button>
     </ul>
 </section>
 <div id="test"></div>
