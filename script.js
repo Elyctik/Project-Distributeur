@@ -131,5 +131,3 @@ function mouseOut(id){
 }
 
 // Fin de SAM
-       }
-       }
