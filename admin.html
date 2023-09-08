@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
-    <label for="username">Nom d'utilisateur</label>
-    <input type="text" name="username" id="username">
-    <label for="password">Mot de passe</label>
-    <input type="password" name="password" id="password">
-    <button type="button" on onclick="login()">Login</button>
+    <a href="#" id="show-login">Connexion</a>
+    <div id="login-popup">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" name="username" id="username">
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password">
+        <button type="button" onclick="login()">Login</button>
+    </div>
     <a id = "refill" style="display: none;">
         <form>
             <label for="produit">Nom du produit</label>
@@ -22,6 +25,18 @@
             <button type="submit" onclick="refill()">Envoi</button>
         </form>
     </a>
+    <script>
+        document.getElementById('show-login').addEventListener('click', function (){
+            let loginPopup = document.getElementById('login-popup');
+            if (loginPopup.style.display === 'block'){
+                loginPopup.style.display = 'none';
+                document.getElementById('show-login').style.display = 'block'
+            } else {
+                loginPopup.style.display = 'block';
+                document.getElementById('show-login').style.display = 'none'
+            }
+        })
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

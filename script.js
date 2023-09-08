@@ -1,4 +1,4 @@
-let distributeur = new Array()[3][3]
+let distributeur = new Array();
 
 function refill(){
     const f = document.forms[0];
@@ -25,5 +25,10 @@ function login(){
     let username = document.getElementById("username").value
     if (username === "root" && password === "toor1234="){
         document.getElementById('refill').style.display = "block"
+        document.getElementById('login-popup').style.display = 'none'
+    } else {
+        alert("identifiants incorrect")
     }
 }
+
+

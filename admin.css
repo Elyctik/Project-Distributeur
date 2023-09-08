@@ -1,40 +1,60 @@
-#refill{
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
 /* Styles pour le corps de la page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-/* Styles pour les étiquettes et les champs de saisie */
-label {
+/* Styles pour le lien de connexion */
+#show-login {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#show-login:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le pop-up de connexion */
+#login-popup {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 10%;
+    text-align: center;
+}
+
+#login-popup label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="number"] {
-    width: 100%;
+#login-popup input[type="text"],
+#login-popup input[type="password"] {
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-/* Styles pour le bouton de connexion */
-button[type="button"] {
+#login-popup button[type="button"] {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -43,16 +63,35 @@ button[type="button"] {
     border-radius: 5px;
 }
 
-/* Styles pour le formulaire de remplissage */
-#refill form {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* Styles pour le formulaire de remplissage (vous pouvez personnaliser davantage) */
+#refill {
+    display: none;
+    text-align: center;
     margin-top: 20px;
 }
 
-/* Styles pour les boutons du formulaire de remplissage */
+#refill form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#refill form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#refill form input[type="text"],
+#refill form input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 #refill form button[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
@@ -60,12 +99,4 @@ button[type="button"] {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-}
-
-/* Styles pour les messages d'erreur (facultatif) */
-#error-message {
-    color: red;
-    font-weight: bold;
-    margin-top: 10px;
-    display: none;
 }
