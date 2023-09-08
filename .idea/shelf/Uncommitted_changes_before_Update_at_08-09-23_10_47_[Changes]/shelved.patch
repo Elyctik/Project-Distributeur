@@ -1,0 +1,61 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n<script src=\"script.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision a1aa02b0c9bcbe66e980a1ae4515b9ce227e926a)
++++ b/index.html	(date 1694162860649)
+@@ -6,6 +6,49 @@
+     <title>Title</title>
+ </head>
+ <body>
++<section>
++    <table>
++        <thead>
++        <tr>
++            <td colspan="3">Distributeur</td>
++        </tr>
++        </thead>
++        <tbody id="contenu">
++        <tr>
++            <td id="A1">Boisson</td>
++            <td id="A2">Boisson</td>
++            <td id="A3">Boisson</td>
++        </tr>
++        <tr>
++            <td id="B1">Bonbon</td>
++            <td id="B2">Bonbon</td>
++            <td id="B3">Bonbon</td>
++        </tr>
++        <tr>
++            <td id="C1">Chips</td>
++            <td id="C2">Chips</td>
++            <td id="C3">Chips</td>
++        </tr>
++        </tbody>
++    </table>
++
++    <ul id="clavier">
++        <label for="texteUtilisateur">Inscrivez quelque chose :</label>
++        <input type="text" id="texteUtilisateur" maxlength="2">
++        <button onclick="insererTexte()">Inscrire</button>
++        <p id="affichageTexte"></p>
++        <li><button>A</button></li>
++        <li><button>B</button></li>
++        <li><button>C</button></li>
++        <li><button>1</button></li>
++        <li><button>2</button></li>
++        <li><button>3</button></li>
++    </ul>
++</section>
++
++
++<button id="afficher" onclick="afficher">Afficher le contenu</button>
++
+ <script src="script.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
