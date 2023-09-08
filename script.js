@@ -18,5 +18,12 @@ function refill(){
         f.emplacement.value = null
         distributeur[row][line] = [produit, quantite]
     }
+}
 
+function login(){
+    let password = document.getElementById("password").value
+    let username = document.getElementById("username").value
+    if (username === "root" && password === "toor1234="){
+        document.getElementById('refill').style.display = "block"
+    }
 }
