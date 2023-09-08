@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="" />
+    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="pull refill">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HTML_Aline" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +76,7 @@
       <updated>1694155876977</updated>
       <workItem from="1694155878204" duration="6254000" />
       <workItem from="1694162568377" duration="244000" />
+      <workItem from="1694162832917" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1694156025273</created>
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694162092647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pull refill">
+      <created>1694163033931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694163033931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +152,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/HTML_Aline" />
+                        <option value="HTML_Aline" />
                       </list>
                     </value>
                   </entry>
