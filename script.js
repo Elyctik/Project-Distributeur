@@ -22,28 +22,27 @@ function insererTexte() {
             affichageTexte.innerHTML = texteUtilisateur;
        }
        else{
-    if (regex.test(texteUtilisateur)) {
+            if (regex.test(texteUtilisateur)) {
         // Affichez le texte dans l'élément souhaité
         affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
 
-    } else {
-        affichageTexte.innerHTML = "Wrong input";
-       }
+        } else {
+            affichageTexte.innerHTML = "Wrong input";
+           }
+        }
+
 }
 
 function affichageClavier(id){
-if(document.getElementById("texteUtilisateur").value.length < 3 ){
-document.getElementById("texteUtilisateur").value += id;
-}
+    if(document.getElementById("texteUtilisateur").value.length < 3 ){
+    document.getElementById("texteUtilisateur").value += id;
+    }
 }
 
 function viderLigne(){
 document.getElementById("texteUtilisateur").value = ""
 }
 
-
-    }
-}
 
 
 let distributeur = new Array();
