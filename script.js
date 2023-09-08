@@ -22,14 +22,9 @@ function insererTexte() {
         affichageTexte.innerHTML = texteUtilisateur;
     }
     else{
-        if (regex.test(texteUtilisateur)) {
-            // Affichez le texte dans l'élément souhaité
-            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
 
-        } else {
             affichageTexte.innerHTML = "Wrong input";
         }
-    }
 
 }
 
