@@ -26,6 +26,41 @@ function insererTexte() {
             affichageTexte.innerHTML = "Wrong input";
         }
 
+    if(texteUtilisateur == "A01"){
+        alert("Félicitations vous avez choisi un coca !")
+    }
+    if(texteUtilisateur == "A02"){
+        alert("Félicitations vous avez choisi un Fanta !")
+    }
+    if(texteUtilisateur == "A03"){
+        alert("Félicitations vous avez choisi un Sprite !")
+    }
+
+    if(texteUtilisateur == "B01"){
+        alert("Félicitations vous avez choisi un paquet d'haribo ! Haribo c'est beau la vie pour les grands et les petits")
+    }
+
+    if(texteUtilisateur == "B02"){
+        alert("Félicitations vous avez choisi un paquet de fraise tagada tsoin tsoin !")
+    }
+
+    if(texteUtilisateur == "B03"){
+        alert("Félicitations vous avez choisi un paquet de nounours en guimauve !")
+    }
+
+    if(texteUtilisateur == "C01"){
+        alert("Félicitations vous avez choisi un paquet de chips au sel miam ! ")
+    }
+
+    if(texteUtilisateur == "C02"){
+        alert("Félicitations vous avez choisi un paquet de chips au paprika ( avec un P majuscule ou pas  ? )")
+    }
+
+    if(texteUtilisateur == "C03"){
+        alert("Félicitations vous avez choisi un paquet de chips pikkles ! Sérieux qui mange ça ?")
+    }
+
+
 }
 
 function afficherBoisson() {

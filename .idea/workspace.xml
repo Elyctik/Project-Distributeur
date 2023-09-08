@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="mise en commun">
+    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="fix bug in inserertexte()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <updated>1694155876977</updated>
       <workItem from="1694155878204" duration="6254000" />
       <workItem from="1694162568377" duration="244000" />
-      <workItem from="1694162832917" duration="9905000" />
+      <workItem from="1694162832917" duration="10573000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1694156025273</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694178454106</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix bug in inserertexte()">
+      <created>1694178949936</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694178949936</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="fix bug" />
     <MESSAGE value="lien vers admin" />
     <MESSAGE value="mise en commun" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en commun" />
+    <MESSAGE value="fix bug in inserertexte()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug in inserertexte()" />
   </component>
 </project>
