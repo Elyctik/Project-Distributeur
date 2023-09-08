@@ -4,13 +4,23 @@ function insererTexte() {
 
     // Récupérez l'élément où vous souhaitez afficher le texte (dans cet exemple, c'est un paragraphe avec l'id "affichageTexte")
     let affichageTexte = document.getElementById("affichageTexte");
-    let regex = new RegExp("^[abc][123]$","gmi");
+    let regex = new RegExp("^[abc][123]$", "gmi");
 
-       if (regex.test(texteUtilisateur)){
-       // Affichez le texte dans l'élément souhaité
-            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
+    if (regex.test(texteUtilisateur)) {
+        // Affichez le texte dans l'élément souhaité
+        affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
 
-       }
-       else{
+    } else {
         affichageTexte.innerHTML = "Wrong input";
-       }
+    }
+}
+
+function afficher(){
+
+    let coca = document.getElementById("A1");
+
+    coca.textContent = "Coca";
+
+    alert("Il y a 1 coca")
+}
+
