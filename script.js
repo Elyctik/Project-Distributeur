@@ -1,25 +1,12 @@
-
-
 function verify(texteUtilisateur){
     let regex = new RegExp("^[abc]0[123]$","gmi");
 
-       if (regex.test(texteUtilisateur)){
-       return true;
-       }
-       else{
-       return false;
-       }
-}
-
-function verify(texteUtilisateur){
-    let regex = new RegExp("^[abc]0[123]$","gmi");
-
-       if (regex.test(texteUtilisateur)){
-       return true;
-       }
-       else{
-       return false;
-       }
+    if (regex.test(texteUtilisateur)){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 function insererTexte() {
@@ -30,41 +17,29 @@ function insererTexte() {
     let affichageTexte = document.getElementById("affichageTexte");
     let regex = new RegExp("^[abc]0[123]$","gmi");
 
-       if (regex.test(texteUtilisateur)){
-       // Affichez le texte dans l'élément souhaité
-            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
-       if (regex.test(texteUtilisateur)){
-       // Affichez le texte dans l'élément souhaité
-            affichageTexte.innerHTML = texteUtilisateur;
-       }
-       else{
-            if (regex.test(texteUtilisateur)) {
+    if (regex.test(texteUtilisateur)){
         // Affichez le texte dans l'élément souhaité
-        affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
-
-       }
-       else{
-        affichageTexte.innerHTML = "Wrong input";
+        affichageTexte.innerHTML = texteUtilisateur;
     }
-}
+    else{
+        if (regex.test(texteUtilisateur)) {
+            // Affichez le texte dans l'élément souhaité
+            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
+
         } else {
             affichageTexte.innerHTML = "Wrong input";
-           }
         }
+    }
 
-function afficherBoisson(){
+}
 
+function afficherBoisson() {
 
     let coca = document.getElementById("A1");
 
     let quantiteCoca = 10;
 
     coca.textContent = "Coca";
-function affichageClavier(id){
-    if(document.getElementById("texteUtilisateur").value.length < 3 ){
-    document.getElementById("texteUtilisateur").value += id;
-    }
-}
 
     let fanta = document.getElementById("A2");
 
@@ -79,13 +54,21 @@ function affichageClavier(id){
     sprite.textContent = "Sprite";
 
     alert("Il y a " + quantiteCoca + " Coca" + " Il y a " + quantitefanta + " Fanta" + " Il y a " + quantitesprite + " sprite")
+}
+function affichageClavier(id){
+    if(document.getElementById("texteUtilisateur").value.length < 3 ){
+    document.getElementById("texteUtilisateur").value += id;
+    }
+}
+
+
 function viderLigne(){
 document.getElementById("texteUtilisateur").value = ""
 }
 
 
 
-let distributeur = new Array();
+
 
 function afficherBonbon(){
 
@@ -135,7 +118,7 @@ function afficherChips(){
 }
 
 let distributeur = new Array();
-function refill(){
+
 
 function refill() {
 

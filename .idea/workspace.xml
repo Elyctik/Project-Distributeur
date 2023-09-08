@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="commit avant pull goeffrey">
+    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="lien vers admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <updated>1694155876977</updated>
       <workItem from="1694155878204" duration="6254000" />
       <workItem from="1694162568377" duration="244000" />
-      <workItem from="1694162832917" duration="8008000" />
+      <workItem from="1694162832917" duration="9330000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1694156025273</created>
@@ -161,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694175240907</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix bug">
+      <created>1694176562933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694176562933</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lien vers admin">
+      <created>1694176628120</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694176628120</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +226,8 @@
     <MESSAGE value="pull refill" />
     <MESSAGE value="afficher le contenu" />
     <MESSAGE value="commit avant pull goeffrey" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit avant pull goeffrey" />
+    <MESSAGE value="fix bug" />
+    <MESSAGE value="lien vers admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="lien vers admin" />
   </component>
 </project>
