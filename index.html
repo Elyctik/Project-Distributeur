@@ -3,13 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Title</title>
+    <title>Le distributeur</title>
 </head>
 <body>
-<label for="texteUtilisateur">Inscrivez quelque chose :</label>
-<input type="text" id="texteUtilisateur" maxlength="3">
-<button onclick="insererTexte()">Inscrire</button>
-<p id="affichageTexte"></p>
+<section>
+    <table>
+        <thead>
+        <tr>
+            <td colspan="3">Distributeur</td>
+        </tr>
+        </thead>
+        <tbody id="contenu">
+        <tr>
+            <td id="A1" onmouseover=" mouseOver('A1')" onmouseout=" mouseOut('A1')">Boisson</td>
+            <td id="A2" onmouseover=" mouseOver('A2')" onmouseout=" mouseOut('A2')">Boisson</td>
+            <td id="A3" onmouseover=" mouseOver('A3')" onmouseout=" mouseOut('A3')">Boisson</td>
+        </tr>
+        <tr>
+            <td id="B1" onmouseover=" mouseOver('B1')" onmouseout=" mouseOut('B1')">Bonbon</td>
+            <td id="B2" onmouseover=" mouseOver('B2')" onmouseout=" mouseOut('B2')">Bonbon</td>
+            <td id="B3" onmouseover=" mouseOver('B3')" onmouseout=" mouseOut('B3')">Bonbon</td>
+        </tr>
+        <tr>
+            <td id="C1" onmouseover=" mouseOver('C1')" onmouseout=" mouseOut('C1')">Chips</td>
+            <td id="C2" onmouseover=" mouseOver('C2')" onmouseout=" mouseOut('C2')">Chips</td>
+            <td id="C3" onmouseover=" mouseOver('C3')" onmouseout=" mouseOut('C3')">Chips</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <ul id="clavier">
+        <label for="texteUtilisateur"></label>
+        <input type="text" id="texteUtilisateur" maxlength="3" disabled value="">
+        <button onclick="insererTexte()">Valider</button>
+        <button onclick="viderLigne()">Effacer</button>
+        <div id="affichageTexte"></div>
+
+        <div class = row ></div>
+        <button onclick="affichageClavier('A')">A</button>
+        <button onclick="affichageClavier('B')">B</button>
+        <button onclick="affichageClavier('C')">C</button>
+
+        <div class = row></div>
+        <button onclick="affichageClavier('1')">1</button>
+        <button onclick="affichageClavier('2')">2</button>
+        <button onclick="affichageClavier('3')">3</button>
+        <button onclick="affichageClavier('0')">0</button>
+    </ul>
+</section>
+<div id="test"></div>
+
+<button  onclick="afficherBoisson()">Afficher le contenu Boissons</button>
+
+<button  onclick="afficherBonbon()">Afficher le contenu friandises</button>
+
+<button  onclick="afficherChips()">Afficher le contenu Chips</button>
+
 <script src="script.js"></script>
 </body>
 </html>

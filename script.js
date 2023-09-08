@@ -19,10 +19,20 @@ function insererTexte() {
 
        if (regex.test(texteUtilisateur)){
        // Affichez le texte dans l'élément souhaité
-            affichageTexte.innerHTML = "Vous avez choisi : " + texteUtilisateur;
-
+            affichageTexte.innerHTML = texteUtilisateur;
        }
        else{
         affichageTexte.innerHTML = "Wrong input";
        }
-       }
+}
+
+function affichageClavier(id){
+if(document.getElementById("texteUtilisateur").value.length < 3 ){
+document.getElementById("texteUtilisateur").value += id;
+}
+}
+
+function viderLigne(){
+document.getElementById("texteUtilisateur").value = ""
+}
+
