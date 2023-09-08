@@ -47,7 +47,7 @@ function afficherBoisson(){
 
     sprite.textContent = "Sprite";
 
-    alert("Il y a " + quantiteCoca + " Coca" + " Il y a " + quantitefanta + " Fanta" + "Il y a " + quantitesprite + " sprite")
+    alert("Il y a " + quantiteCoca + " Coca" + " Il y a " + quantitefanta + " Fanta" + " Il y a " + quantitesprite + " sprite")
 }
 
 
@@ -71,7 +71,7 @@ function afficherBonbon(){
 
     nounours.textContent = "Nounours"
 
-    alert("il y a " + quantiteHaribo + " haribo " + " il y a " + quantitetagada + "tagadas" + " il y a " + quantiteNounours + " Nounours")
+    alert("il y a " + quantiteHaribo + " haribo " + " il y a " + quantitetagada + " tagadas" + " il y a " + quantiteNounours + " Nounours")
 
 }
 
