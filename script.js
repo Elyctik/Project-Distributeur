@@ -97,9 +97,10 @@ function afficherChips(){
     alert("il y a " + quantiteSel + " chips au sel " + " il y a " + quantitePaprika + " chips au paprika" + " il y a " + quantitePikkles + " chips au pikkles")
 
 }
-let distributeur = new Array()[3][3]
 
+let distributeur = new Array();
 function refill(){
+
     const f = document.forms[0];
     let produit = f.produit.value;
     let quantite = f.quantite.value;
@@ -111,7 +112,7 @@ function refill(){
     } else {
         let emplacement = f.emplacement.value;
         row = emplacement.charAt(0)
-        line = emplacement.charAt(3)
+        line = emplacement.charAt(2)
         f.produit.value = null
         f.quantite.value = null
         f.emplacement.value = null
