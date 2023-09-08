@@ -46,3 +46,15 @@ function refill(){
     }
 
 }
+
+// SAM
+
+function mouseOver(id){
+    document.getElementById(id).style.color = "red";
+    document.getElementById("test").innerHTML = "Bonjour, il y a X Coca-cola en A1 au prix de Y €"
+}
+function mouseOut(id){
+    document.getElementById(id).style.color = "black";
+}
+
+// Fin de SAM
