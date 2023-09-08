@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="afficher le contenu">
+    <list default="true" id="91c7ae1b-fa8a-4a9e-8659-240c79bebfd4" name="Changes" comment="commit avant pull goeffrey">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <updated>1694155876977</updated>
       <workItem from="1694155878204" duration="6254000" />
       <workItem from="1694162568377" duration="244000" />
-      <workItem from="1694162832917" duration="2854000" />
+      <workItem from="1694162832917" duration="8008000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1694156025273</created>
@@ -141,7 +140,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694165405979</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="afficher le contenu">
+      <created>1694165738648</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694165738648</updated>
+    </task>
+    <task id="LOCAL-00011" summary="afficher le contenu">
+      <created>1694165795062</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694165795062</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit avant pull goeffrey">
+      <created>1694175240907</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694175240907</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +193,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HTML_Aline" />
                       </list>
                     </value>
                   </entry>
@@ -191,6 +211,7 @@
     <MESSAGE value="regex geoffrey" />
     <MESSAGE value="pull refill" />
     <MESSAGE value="afficher le contenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="afficher le contenu" />
+    <MESSAGE value="commit avant pull goeffrey" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit avant pull goeffrey" />
   </component>
 </project>
